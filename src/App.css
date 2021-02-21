@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.character-container{
+  display:flex;
+  justify-content: right;
+  float:right;
+  flex-wrap: wrap;
+  margin-right:400px
+}
+
+
+
+.character-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:10px;
+  height:75vh;
+  width: 25vw;
+
+}
+
+.character-list > ul{
+  list-style: none;
+  height: 75vw;
+  width: 100%;
+  overflow:hidden;
+  overflow-y: scroll;
+}
+
+.character-list > ul > li {
+  padding:5px;
+  background:white;
+  transition-duration:500ms;
+  transition-property: font-size;
+}
+
+.character-list > ul > li:hover {
+  font-size:1.5em;
+}
+
+.episode-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.episode-details{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+
+}
+
+
+.nav-bar{
+  list-style: none;
+}
+
+.featured-characters{
+  list-style: none;
+  
+}
+
+
+
+
+
+
+
+
+
